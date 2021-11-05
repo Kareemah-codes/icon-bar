@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,400&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+
+
+li  {
+   list-style-type: none;
+}
+
+nav{
+}
+
+ul{
+    height: 100vh;
+    max-width: 7em;
+    background-color:black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+}
+.icon{
+    font-size: 1.7em;
+    color: #FEE440 ;
+    
+}
