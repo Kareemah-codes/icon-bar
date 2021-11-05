@@ -1,15 +1,20 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,400&display=swap');
 
+:root{
+    --icon_color: #FEE440;
+    --icon_color_hover:black;
+
+}
 *{
     box-sizing: border-box;
 }
-
+html,body{
+    margin:0px;
+    padding: 0px;
+}
 
 li  {
    list-style-type: none;
-}
-
-nav{
 }
 
 ul{
@@ -19,10 +24,32 @@ ul{
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-
+    overflow:hidden;
+    
 }
+
 .icon{
     font-size: 1.7em;
-    color: #FEE440 ;
+    color:var(--icon_color) ;
     
+}
+
+.icon:hover{
+    background-color: #FEE440;
+    color: var(--icon_color_hover);
+    padding: 20px;
+    position: relative;
+    right: 17px;
+    border-radius:5px;
+}
+.icon:active{
+    color:grey;
+}
+/* #menu_button{
+   display: none;
+} */
+/*Mobile Styling*/
+
+@media (max-width:768px){
+   
 }
